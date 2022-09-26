@@ -18,4 +18,9 @@
     height:400px;
     width:400px;
 }
+.debug .image{
+    height: 200px;
+    background-color: red;
+    border: 2px solid black;
+}
 /* #endregion Debug */
