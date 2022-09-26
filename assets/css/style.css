@@ -41,14 +41,13 @@
 .debug .text{
     background-color: gray;
     height: 50px;
-    width: 100px;
+    width: 200px;
 }
 .footer_top{
     background-color: blue;
-    height: 200px;
 }
 .footer_bot{
-    height: 200px;
+    height: 100px;
     background-color: aquamarine;
 }
 /* #endregion Debug */
