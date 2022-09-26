@@ -1,9 +1,21 @@
 /* #region Debug */
+.debug header{
+    background-color: lightblue;
+}
 .debug .logo,
 .debug .custom_nav_bar{
     background-color: aqua;
     height: 50px;
     width: 200px;
     border:1px solid red;
+}
+
+.debug .jumbo{
+    background-color: lightgreen;
+}
+.debug .jumbo .container.container-md{
+    background-color: green;
+    height:400px;
+    width:400px;
 }
 /* #endregion Debug */
