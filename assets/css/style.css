@@ -10,13 +10,13 @@
     border:1px solid red;
 }
 
-.debug .jumbo{
+.debug .jumbotron{
     background-color: lightgreen;
 }
-.debug .jumbo .container.container-md{
+.debug .jumbo{
     background-color: green;
     height:400px;
-    width:400px;
+    width: 400px;
 }
 .debug .image{
     height: 200px;
