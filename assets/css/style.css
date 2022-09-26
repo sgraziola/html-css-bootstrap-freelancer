@@ -10,7 +10,8 @@
     border:1px solid red;
 }
 
-.debug .jumbotron{
+.debug .jumbotron,
+.debug .about_us {
     background-color: lightgreen;
 }
 .debug .jumbo{
@@ -18,6 +19,7 @@
     height:400px;
     width: 400px;
 }
+
 .debug .image{
     height: 200px;
     background-color: red;
@@ -28,5 +30,25 @@
     height: 100px;
     width: 200px;
     background-color: blueviolet;
+}
+
+.debug .contact_me{
+    height: 300px;
+    width: 400px;
+    background-color: yellow;
+}
+
+.debug .text{
+    background-color: gray;
+    height: 50px;
+    width: 100px;
+}
+.footer_top{
+    background-color: blue;
+    height: 200px;
+}
+.footer_bot{
+    height: 200px;
+    background-color: aquamarine;
 }
 /* #endregion Debug */
