@@ -18,7 +18,7 @@ h1 {
     letter-spacing: 0.035em;
 }
 
-p {
+.jumbo_text p {
     font-weight: 600;
     line-height: 30px;
     letter-spacing: -0.015em;
@@ -76,6 +76,7 @@ img{
 
 .about_us{
     background-color: var(--bt_primary);
+    padding: 0px 112px;
 }
 
 /* #endregion Main */
@@ -153,7 +154,7 @@ img{
         font-size: 59px;
     }
 
-    p {
+    .jumbo_text p {
         font-size: 26px;
     }
     h2{
