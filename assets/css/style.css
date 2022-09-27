@@ -59,7 +59,7 @@ img{
 /* #endregion Header */
 
 /* #region Main */
-.jumbotron {
+.bg_primary {
     background-color: var(--bt_primary);
 }
 
@@ -74,8 +74,8 @@ img{
     border-radius: 3rem;
 }
 
-.about_us{
-    background-color: var(--bt_primary);
+.about_us,
+.contact{
     padding: 0px 112px;
 }
 
@@ -141,7 +141,7 @@ img{
 /* #endregion Debug */
 
 /* #region Responsive Media Queries */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .navbar-brand {
         font-size: 27px;
     }
@@ -160,6 +160,6 @@ img{
     h2{
         font-size: 50px;  
     }
-}
+} */
 
 /* #endregion Responsive Media Queries */

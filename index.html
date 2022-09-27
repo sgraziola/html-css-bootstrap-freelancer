@@ -49,7 +49,7 @@
     </header>
     <!-- /#site_header -->
     <main id="site_main">
-        <section class="jumbotron py-4">
+        <section class="jumbotron bg_primary py-4">
             <div class="jumbo_img text-center">
                 <img src="./assets/img/avatar.svg" alt="">
             </div>
@@ -116,7 +116,7 @@
             <!-- /.container -->
         </section>
         <!-- /.portfolio -->
-        <div class="about_us text-white text-center py-5">
+        <div class="about_us bg_primary text-white text-center py-5">
             <h2 class="text-uppercase">about</h2>
             <div class="divider d-flex my-4 justify-content-center align-items-center">
                 <div class="bar me-4 bg-white"></div>
@@ -127,13 +127,17 @@
                 <div class="row">
                     <div class="col12 col-md-6 g-md-3 d-flex justify-content-center justify-content-md-end">
                         <div class="about">
-                            <p class="text-start">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and Javascript as well as optimal LESS stylesheets for easy customization.</p>
+                            <p class="text-start">Freelancer is a free bootstrap theme created by Start Bootstrap. The
+                                download includes the complete source files including HTML, CSS, and Javascript as well
+                                as optimal LESS stylesheets for easy customization.</p>
                         </div>
                     </div>
                     <!-- /.col12 col-md-6 gy-3 gx-md-3 -->
                     <div class="col12 col-md-6 gy-3 gx-md-3 d-flex justify-content-center justify-content-md-start">
                         <div class="about">
-                            <p class="text-start">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+                            <p class="text-start">Whether you're a student looking to showcase your work, a professional
+                                looking to attract clients, or a graphic artist looking to share your projects, this
+                                template is the perfect starting point!</p>
                         </div>
                     </div>
                     <!-- /.col12 col-md-6 gy-3 gx-md-3 -->
@@ -143,17 +147,41 @@
             <!-- /.container-->
         </div>
         <!-- /.about_us-->
-        <div class="container-fluid contact py-3">
-            <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <div class="contact_me">
-
-                    </div>
+        <div class="contact py-5 text-center">
+            <div class="container">
+                <h2 class="text-uppercase">contact me</h2>
+                <div class="divider d-flex my-4 justify-content-center align-items-center">
+                    <div class="bar me-4"></div>
+                    <i class="fa-solid fa-star fs-3"></i>
+                    <div class="bar ms-4"></div>
                 </div>
-                <!-- /.col d-flex justify-content-center -->
+
+                <form class="text-start">
+                    <div class="mb-3">
+                        <label for="name" class="form-label mb-0">Name</label>
+                        <input type="text" class="form-control form-control-sm border-0 rounded-0 border-bottom"
+                            id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email_address" class="form-label mb-0">Email Address</label>
+                        <input type="email" class="form-control form-control-sm border-0 rounded-0 border-bottom"
+                            id="email_address">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label mb-0">Phone Number</label>
+                        <input type="number" class="form-control form-control-sm border-0 rounded-0 border-bottom"
+                            id="phone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label mb-0">Message</label>
+                        <textarea class="form-control border-0 rounded-0 border-bottom" id="message"
+                            rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn text-white bg_primary">Send</button>
+                </form>
             </div>
         </div>
-        <!-- /.container-fluid contact -->
+        <!-- /.contact -->
     </main>
     <!-- /#site_main -->
     <footer id="site_footer">
