@@ -14,7 +14,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <!-- CDN FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- My Style -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -23,39 +25,45 @@
     <header id="site_header" class="py-4">
         <nav class="navbar navbar-expand-md navbar-dark text-uppercase">
             <div class="container">
-              <a class="navbar-brand" href="#">Start bootstrap</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">about</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand" href="#">Start bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <!-- /#site_header -->
     <main id="site_main">
-        <div class="container-fluid jumbotron">
-            <div class="row py-3">
-                <div class="col d-flex justify-content-center">
-                    <section class="jumbo">
-
-                    </section>
-                    <!-- /.jumbo -->
-                </div>
+        <section class="jumbotron py-4">
+            <div class="jumbo_img text-center">
+                <img src="./assets/img/avatar.svg" alt="">
             </div>
-            <!-- /.row -->
-        </div>
+            <div class="jumbo_text mt-md-3 text-center text-uppercase text-white">
+                <h1>start bootstrap</h1>
+                <div class="divider d-flex mb-4 justify-content-center align-items-center">
+                    <div class="bar me-4"></div>
+                    <i class="fa-solid fa-star fs-3"></i>
+                    <div class="bar ms-4"></div>
+                </div>
+                <p>graphic artist - web designer - illustrator</p>
+            </div>
+        </section>
+        <!-- /.jumbotron -->
 
         <section class="portfolio">
             <div class="container container-md container-lg">

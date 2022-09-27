@@ -11,6 +11,18 @@ body {
     --bt_lighter: #FFFFFF;
 }
 
+h1 {
+    font-weight: 800;
+    line-height: 69px;
+    letter-spacing: 0.035em;
+}
+
+p {
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.015em;
+}
+
 /* #endregion Common */
 
 /* #region Header */
@@ -28,15 +40,30 @@ body {
 
 .navbar-brand {
     font-weight: 800;
-    font-size: 27px;
+    font-size: 20px;
     line-height: 32px;
     letter-spacing: 0.05em;
 }
 
 /* #endregion Header */
 
-/* #region Debug */
+/* #region Main */
+.jumbotron {
+    background-color: var(--bt_primary);
+}
 
+.jumbo_img img {
+    width: 190px;
+}
+.bar{
+    height: 3px;
+    width: 15%;
+    background-color: var(--bt_lighter);
+    border-radius: 3rem;
+}
+/* #endregion Main */
+
+/* #region Debug */
 .debug header {
     background-color: lightblue;
 }
@@ -94,3 +121,24 @@ body {
 }
 
 /* #endregion Debug */
+
+/* #region Responsive Media Queries */
+@media screen and (min-width: 768px) {
+    .navbar-brand {
+        font-size: 27px;
+    }
+
+    .jumbo_img img {
+        width: 230px;
+    }
+
+    h1 {
+        font-size: 59px;
+    }
+
+    p {
+        font-size: 26px;
+    }
+}
+
+/* #endregion Responsive Media Queries */
