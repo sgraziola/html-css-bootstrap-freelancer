@@ -1,6 +1,5 @@
 /* #region Common */
 body {
-    font-family: 'Roboto', sans-serif;
     color: var(--bt_text);
 }
 
@@ -12,56 +11,31 @@ body {
     --bt_lighter: #FFFFFF;
 }
 
-h1 {
-    font-weight: 800;
-    line-height: 69px;
-    letter-spacing: 0.035em;
-}
-
-h3 {
-    font-weight: 400;
-    line-height: 30px;
-    letter-spacing: -0.015em;
-}
-
-h2 {
-    font-weight: 500;
-    line-height: 23px;
-    letter-spacing: 0.06em;
-}
 img{
     max-width: 100%;
 }
-
 /* #endregion Common */
 
-/* #region Header */
-#site_header {
-    background-color: var(--bt_darker);
-}
-
-.nav-link {
-    color: var(--bt_lighter);
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 20px;
-    letter-spacing: 0.055em;
-}
-
-.navbar-brand {
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 32px;
-    letter-spacing: 0.05em;
-}
-
-/* #endregion Header */
-
-/* #region Main */
+/* #region Utilities */
 .bg_primary {
     background-color: var(--bt_primary);
 }
+.color_primary{
+    color: var(--bt_primary);
+}
+.font_lg{
+    font-size: 40px;
+}
+.bg_darker {
+    background-color: var(--bt_darker);
+}
+.bg_dark{
+    background-color: var(--bt_dark);
+}
 
+/* #endregion Utilities */
+
+/* #region Main */
 .jumbo_img img {
     width: 190px;
 }
@@ -69,7 +43,6 @@ img{
 .bar {
     height: 3px;
     width: 15%;
-    background-color: var(--bt_darker);
     border-radius: 3rem;
 }
 
@@ -80,16 +53,9 @@ img{
 /* #endregion Main */
 
 /* #region Footer */
-.footer_top{
-    background-color: var(--bt_dark);
-}
 .footer_top i{
     width: 40px;
     height: 40px;
-}
-
-.footer_bot{
-    background-color: var(--bt_darker);
 }
 /* #endregion Footer */
 
