@@ -1,53 +1,96 @@
+/* #region Common */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --bt_primary: #1ABC9C;
+    --bt_darker: #2C3E50;
+    --bt_text: #333333;
+    --bt_dark: #3A546D;
+    --bt_lighter: #FFFFFF;
+}
+
+/* #endregion Common */
+
+/* #region Header */
+#site_header {
+    background-color: var(--bt_darker);
+}
+
+.nav-link {
+    color: var(--bt_lighter);
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.055em;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 27px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+}
+
+/* #endregion Header */
+
 /* #region Debug */
-.debug header{
+
+.debug header {
     background-color: lightblue;
 }
+
 .debug .logo,
-.debug .custom_nav_bar{
+.debug .custom_nav_bar {
     background-color: aqua;
     height: 50px;
     width: 200px;
-    border:1px solid red;
+    border: 1px solid red;
 }
 
 .debug .jumbotron,
 .debug .about_us {
     background-color: lightgreen;
 }
-.debug .jumbo{
+
+.debug .jumbo {
     background-color: green;
-    height:400px;
+    height: 400px;
     width: 400px;
 }
 
-.debug .image{
+.debug .image {
     height: 200px;
     background-color: red;
     border: 2px solid black;
 }
 
-.debug .about{
+.debug .about {
     height: 100px;
     width: 200px;
     background-color: blueviolet;
 }
 
-.debug .contact_me{
+.debug .contact_me {
     height: 300px;
     width: 400px;
     background-color: yellow;
 }
 
-.debug .text{
+.debug .text {
     background-color: gray;
     height: 50px;
     width: 200px;
 }
-.footer_top{
+
+.footer_top {
     background-color: blue;
 }
-.footer_bot{
+
+.footer_bot {
     height: 100px;
     background-color: aquamarine;
 }
+
 /* #endregion Debug */
