@@ -1,6 +1,7 @@
 /* #region Common */
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--bt_text);
 }
 
 :root {
@@ -21,6 +22,16 @@ p {
     font-weight: 600;
     line-height: 30px;
     letter-spacing: -0.015em;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+}
+img{
+    max-width: 100%;
 }
 
 /* #endregion Common */
@@ -55,12 +66,18 @@ p {
 .jumbo_img img {
     width: 190px;
 }
-.bar{
+
+.bar {
     height: 3px;
     width: 15%;
-    background-color: var(--bt_lighter);
+    background-color: var(--bt_darker);
     border-radius: 3rem;
 }
+
+.about_us{
+    background-color: var(--bt_primary);
+}
+
 /* #endregion Main */
 
 /* #region Debug */
@@ -111,11 +128,11 @@ p {
     width: 200px;
 }
 
-.footer_top {
+.debug .footer_top {
     background-color: blue;
 }
 
-.footer_bot {
+.debug .footer_bot {
     height: 100px;
     background-color: aquamarine;
 }
@@ -138,6 +155,9 @@ p {
 
     p {
         font-size: 26px;
+    }
+    h2{
+        font-size: 50px;  
     }
 }
 
