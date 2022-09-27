@@ -18,15 +18,14 @@ h1 {
     letter-spacing: 0.035em;
 }
 
-.jumbo_text p {
-    font-weight: 600;
+h3 {
+    font-weight: 400;
     line-height: 30px;
     letter-spacing: -0.015em;
 }
 
 h2 {
     font-weight: 500;
-    font-size: 20px;
     line-height: 23px;
     letter-spacing: 0.06em;
 }
@@ -78,8 +77,21 @@ img{
 .contact{
     padding: 0px 112px;
 }
-
 /* #endregion Main */
+
+/* #region Footer */
+.footer_top{
+    background-color: var(--bt_dark);
+}
+.footer_top i{
+    width: 40px;
+    height: 40px;
+}
+
+.footer_bot{
+    background-color: var(--bt_darker);
+}
+/* #endregion Footer */
 
 /* #region Debug */
 .debug header {
@@ -139,27 +151,3 @@ img{
 }
 
 /* #endregion Debug */
-
-/* #region Responsive Media Queries */
-/* @media screen and (min-width: 768px) {
-    .navbar-brand {
-        font-size: 27px;
-    }
-
-    .jumbo_img img {
-        width: 230px;
-    }
-
-    h1 {
-        font-size: 59px;
-    }
-
-    .jumbo_text p {
-        font-size: 26px;
-    }
-    h2{
-        font-size: 50px;  
-    }
-} */
-
-/* #endregion Responsive Media Queries */
